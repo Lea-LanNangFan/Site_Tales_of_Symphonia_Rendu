@@ -1,0 +1,252 @@
+* {
+  background-color: bisque;
+}
+
+.logo {
+  width:35%;
+  
+}
+
+.logo_div{
+    display: flex;
+   justify-content: center;
+}
+
+.bandeau {
+  
+  margin: 20px;
+  width: 60%;
+}
+
+.taille_div_bandeau {
+  display: flex;
+   justify-content: center;
+}
+
+.alignement_header {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.header_div_taille{
+    height: 800px;
+}
+
+.Carte_S {
+  width: 100%;
+}
+
+.Carte_T {
+  width: 101%;
+}
+
+.text_résumé_centrage {
+  font-size: 180%;
+  margin: 0;
+}
+
+.div_texte{
+    display: flex;
+   justify-content: center;
+}
+
+.texte2{
+    text-align: center;
+}
+
+.taille_div_carte_S {
+  width: 709px;
+  height: 550px;
+}
+
+.taille_div_carte_T {
+  width: 665px;
+  height: 548px;
+}
+
+.alignement_carte {
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+  justify-content: space-around;
+}
+
+.perso_text {
+  text-align: center;
+  font-size: 300%;
+  margin: 50px;
+  margin-top: 80px;
+  margin-bottom: 70px;
+  border-radius: 20%;
+  border: 10px solid rgba(223, 75, 144, 0.874)
+  
+}
+
+
+.perso_nom {
+  font-size: 300%;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.taille_div {
+  width: 300px;
+}
+
+.perso_sheena {
+  font-size: 261%;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.alignement_perso {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  justify-content: space-evenly;
+}
+
+.imgage_rétrécissement {
+  width: 300px;
+  height: 450.67px;
+}
+.imgage_rétrécissement:hover {
+  transform: scale(1.3);
+  transform-origin: center;
+}
+
+.image_gris {
+  filter: none;
+  background-color: bisque;
+}
+
+.image_gris:active {
+  background-color: bisque;
+  filter: grayscale(1);
+}
+
+.alignement_vidéo {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.Jeu_présentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text_présentation {
+  font-size: 40px;
+}
+
+.images_présentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bandai {
+  width: 100%;
+}
+
+.bandai_div {
+  width: 255px;
+}
+
+.Icon {
+  width: 100%;
+}
+
+.Icon_div {
+  width: 600px;
+}
+.consoles {
+  width: 100%;
+}
+
+.consoles_div {
+  width: 300px;
+}
+
+.lobster-two-regular {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-two-bold {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lobster-two-regular-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lobster-two-bold-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@media screen and (max-width :350px)
+{
+}
+
+.Titre_vidéo{
+    font-size:200%;
+}
+
+.bandeau_fin{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.images_jeu_div{
+    width: 400px;
+    height: 225px;
+    margin:10px ;
+   
+    
+
+}
+
+.image_jeu_taille{
+     width: 400px;
+     height: 225px;
+      border-radius: 5%;
+   
+}
+
+.grande_div_images{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+
+}
+
+.Footer_margin{
+    margin: 50px;
+}
+
+.Navigateur_bandeau{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.div_entre_points{
+    margin: 10px;
+    font-size: 30px;
+}
